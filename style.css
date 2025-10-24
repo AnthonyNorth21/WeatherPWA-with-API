@@ -1,0 +1,102 @@
+/* === Anthony's Weather App Styling === */
+
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: #333;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main app container */
+#app {
+  background: #ffffffcc;
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px 40px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+/* Header */
+h1 {
+  color: #0078d7;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+/* Input box */
+input {
+  width: 80%;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #0078d7;
+  box-shadow: 0 0 5px #0078d7;
+}
+
+/* Button styling */
+button {
+  background: #0078d7;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+/* Weather info card */
+#weatherInfo {
+  margin-top: 25px;
+  background: #f9fafc;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+#weatherInfo h2 {
+  margin: 0 0 10px;
+  color: #0078d7;
+  font-size: 1.2em;
+}
+
+#weatherInfo p {
+  margin: 6px 0;
+  font-size: 0.95em;
+  color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+  #app {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  input {
+    width: 90%;
+  }
+}

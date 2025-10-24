@@ -1,0 +1,22 @@
+{
+  "name": "Anthony's Weather App",
+  "short_name": "AnthonyWeather",
+  "description": "A modern Progressive Web App that displays real-time weather information with offline support.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#4facfe",
+  "theme_color": "#0078d7",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
