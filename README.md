@@ -106,8 +106,3 @@ The Weather App is a **Progressive Web Application (PWA)** that provides real-ti
 * Cached weather data expires after **30 minutes** to ensure accuracy.
 * The PWA will automatically update when a new service worker version is activated.
 
----
-
-## License
-
-This project is released for educational purposes and can be freely modified or extended.
