@@ -22,7 +22,7 @@ request.onupgradeneeded = (event) => {
 };
 
 // Weather API (using local CORS proxy)
-const API_KEY = 'b17296ce22bf4ce5a172eb009e408d13';
+const API_KEY = 'Input API Key';
 const API_URL = 'http://localhost:8010/proxy/v2.0/current';
 
 // Main function to get weather data
@@ -123,4 +123,5 @@ document.getElementById('getWeather').addEventListener('click', () => {
     } else {
         alert("Please enter a city name.");
     }
+
 });
